@@ -13,6 +13,9 @@
 		AB746D9E28331B85002AAB13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB746D9C28331B85002AAB13 /* Main.storyboard */; };
 		AB746DA028331B88002AAB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB746D9F28331B88002AAB13 /* Assets.xcassets */; };
 		AB746DA328331B88002AAB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB746DA128331B88002AAB13 /* LaunchScreen.storyboard */; };
+		AB746DAB28331DBF002AAB13 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB746DAA28331DBF002AAB13 /* APICaller.swift */; };
+		AB746DAD283323CE002AAB13 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB746DAC283323CE002AAB13 /* NewsTableViewCell.swift */; };
+		AB746DAF2834899F002AAB13 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB746DAE2834899F002AAB13 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AB746D9F28331B88002AAB13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB746DA228331B88002AAB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB746DA428331B88002AAB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB746DAA28331DBF002AAB13 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		AB746DAC283323CE002AAB13 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		AB746DAE2834899F002AAB13 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				AB746D9F28331B88002AAB13 /* Assets.xcassets */,
 				AB746DA128331B88002AAB13 /* LaunchScreen.storyboard */,
 				AB746DA428331B88002AAB13 /* Info.plist */,
+				AB746DAA28331DBF002AAB13 /* APICaller.swift */,
+				AB746DAC283323CE002AAB13 /* NewsTableViewCell.swift */,
+				AB746DAE2834899F002AAB13 /* Launch Screen.storyboard */,
 			);
 			path = NewsyApp;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				AB746DA328331B88002AAB13 /* LaunchScreen.storyboard in Resources */,
 				AB746DA028331B88002AAB13 /* Assets.xcassets in Resources */,
+				AB746DAF2834899F002AAB13 /* Launch Screen.storyboard in Resources */,
 				AB746D9E28331B85002AAB13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +150,9 @@
 			files = (
 				AB746D9B28331B85002AAB13 /* ViewController.swift in Sources */,
 				AB746D9728331B85002AAB13 /* AppDelegate.swift in Sources */,
+				AB746DAD283323CE002AAB13 /* NewsTableViewCell.swift in Sources */,
 				AB746D9928331B85002AAB13 /* SceneDelegate.swift in Sources */,
+				AB746DAB28331DBF002AAB13 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +304,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -319,7 +331,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
